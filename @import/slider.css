@@ -1,0 +1,138 @@
+.slider_top {
+  display: flex;
+  gap: 40px;
+}
+
+.slider {
+  padding-bottom: 250px;
+}
+
+.slider__item {
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+
+.slider__item:hover {
+  border: 2px solid #f53838;
+}
+
+.slider_top {
+  padding: 30px 0 20px 30px;
+}
+
+.slider_bottom {
+  padding: 0 30px 30px 30px;
+}
+
+.slider_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.slider_grade {
+  display: flex;
+  align-items: center;
+  gap: 11.38px;
+}
+
+.slidet_text h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0b132a;
+}
+
+.slider_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4f5665;
+}
+
+.slider_grade p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0b132a;
+}
+
+.slider_bottom p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0b132a;
+}
+
+.slick-track {
+  display: flex;
+  overflow: hidden;
+  gap: 50px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+.slider .slick-arrow.slick-prev {
+  top: 300px;
+  left: 45%;
+  background-image: url(../icon/left.svg);
+}
+.slider .slick-arrow.slick-next {
+  top: 300px;
+  right: 45%;
+  background-image: url(../icon/right.svg);
+}
+
+
+@media (min-width: 0px) {
+  .slick-track {
+    display: none;
+  }
+
+  .slick-arrow.slick-next, .slick-arrow.slick-prev {
+    display: none;
+  }
+}
+
+
+@media (min-width: 920px) {
+  .slick-track {
+    display: flex;
+    overflow: hidden;
+    gap: 50px;
+  }
+
+  .slick-arrow.slick-next, .slick-arrow.slick-prev {
+    display: block;
+  }
+}

@@ -1,0 +1,25 @@
+.customers {
+  padding-bottom: 60px;
+}
+
+.customers h1 {
+  margin: 0 auto;
+  max-width: 447.81px;
+  line-height: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #0b132a;
+}
+
+.customers p {
+  max-width: 555px;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4f5665;
+}

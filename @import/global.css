@@ -1,0 +1,89 @@
+.global h1 {
+  margin: 0 auto;
+  max-width: 383.41px;
+  line-height: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #0b132a;
+}
+
+.global p {
+  padding-bottom: 155.81px;
+  margin: 0 auto;
+  max-width: 555px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4f5665;
+}
+
+.map {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.map svg:hover {
+  stroke: blue;
+  fill: #f53838;
+}
+
+.brend {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 124.16px;
+}
+
+.brend img {
+  filter: blur(5px);
+  width: 100%;
+  transition: 0.2s;
+}
+
+.brend img:hover {
+  filter: none;
+}
+
+@media (min-width: 0px) {
+  .map svg {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 0px) {
+  .brend {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 124.16px;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 500px) {
+  .brend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 124.16px;
+  }
+}
+
+@media (min-width: 700px) {
+  .brend {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 124.16px;
+  }
+}
+
+@media (min-width: 920px) {
+  .brend {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 124.16px;
+  }
+}
